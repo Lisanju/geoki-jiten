@@ -1,1 +1,2 @@
-# okinawa-go-jiten
+# Dicionário Geoki-Jiten
+Dicionário Bilíngue com entradas do Português Brasileiro para o Okinawano e do Okinawano para o Português Brasileiro.
