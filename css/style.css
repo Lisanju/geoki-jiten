@@ -1,0 +1,159 @@
+body {
+    background-image: url("../imgs/background.png");
+    background-size: cover;
+}
+.logo {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+.single-logo img {
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.search input {
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #929EA9;
+}
+
+.form-inputs {
+    position: relative;
+    box-shadow: 0 0 12px 0 #B8B8B8;
+
+}
+
+.form-inputs select {
+    border-radius: 0;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    width: 200px;
+}
+
+.form-inputs img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 24px;
+    width: 24px;
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+    .logo img {
+        height: 35%;
+        width: 35%;
+    }
+
+    .col-md-8 {
+        width: 90%;
+    }
+
+    .form-inputs select {
+        font-size: 16px;
+        width: 180px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-top: 80px;
+    }
+
+    .search input {
+        height: 55px;
+    }
+
+    .form-inputs img {
+        right: 18px;
+        top: 18px;
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .logo {
+        margin-top: 70px;
+    }
+
+    .col-md-8 {
+        width: 100%;
+    }
+
+    .search input {
+        height: 50px;
+    }
+
+    .p-2 {
+        padding: 0 !important;
+    }
+
+    .form-inputs img {
+        right: 16px;
+        top: 16px;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        margin-top: 60px;
+    }
+
+    .logo img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .form-inputs select {
+        font-size: 15px;
+        width: 175px;
+    }
+
+    .search input {
+        font-size: 15px;
+    }
+
+    .form-inputs img {
+        right: 16px;
+        top: 16px;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .form-inputs select {
+        width: 100%;
+    }
+
+    .form-inputs img {
+        top: 55px;
+    }
+
+}
