@@ -3,7 +3,7 @@ import translators as ts
 import time
 
 # Path do workbook português brasileiro (ainda não traduzido do JP para PT-BR)
-wb = openpyxl.load_workbook("data/ptbr_okinawago_data.xlsx")
+wb = openpyxl.load_workbook("../data/ptbr_okinawago_data.xlsx")
 
 # Worksheet português brasileiro ativo
 ws = wb.active
