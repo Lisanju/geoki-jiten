@@ -5,7 +5,7 @@ import time
 wb = openpyxl.load_workbook("data/ptbr_okinawago_data.xlsx")
 ws = wb.active
 
-linhas_processadas = 0
+linhasProcessadas = 0
 
 for i in range(1, ws.max_row + 1):
     for j in range(1, ws.max_column + 1):
