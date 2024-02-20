@@ -12,10 +12,10 @@ for i in range(1, ws.max_row + 1):
         celulaValor = ws.cell(i, j).value
         if celulaValor and isinstance(celulaValor, str):
             try:
-                palavraTraduzida = ts.translate_text(celulaValor, "alibaba")
+                palavraTraduzida = ts.translate_text(celulaValor, "baidu","jp","pt")
                 if palavraTraduzida is not None:
                     ws.cell(row=i, column=j, value=palavraTraduzida)
-                    print(f"Linha {i} / {ws.max_row}")
+                    print(f"{i}/{ws.max_row}")
                 else:
                     print(f"A tradução para a célula ({i}, {j}) retornou None.")
             except Exception as e:
