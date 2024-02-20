@@ -15,12 +15,12 @@ def acharPalavra(string):
     for i in range(1,wsOK.max_row+1):
         for j in range(1,2):
             if string == wsOK.cell(i,j).value:
-                celula = wsOK.cell(i,j).value
+                celula = wsOK.cell(i,j)
                 palavra = wsPB.cell(i,j).value # FIX: Arrumar palavra
                 entonacao = wsOK.cell(i,j+1).value
                 classe = wsOK.cell(i,j+2).value
                 glosa = wsPB.cell(i,j+2).value # FIX: Arrumar glosa
-                print(f"Palavra encontrada: {wsOK.cell(i,j).value}\nEntonação: {entonacao}\nClasse: {classe}")
+                print(f"Palavra encontrada: {celula.value}\nEntonação: {entonacao}\nClasse: {classe}")
                 return celula, palavra, entonacao, classe, glosa
                 
 acharPalavra("?aci")
