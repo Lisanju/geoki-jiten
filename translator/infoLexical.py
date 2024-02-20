@@ -48,7 +48,7 @@ dadosTraduzidos = list(zip(palavra, entonacao, classe_traduzida))
 
 # Exportar para um novo arquivo Excel com os dados traduzidos
 wbTraduzido = openpyxl.Workbook()
-wsTraduzido = wb_traduzido.active
+wsTraduzido = wbTraduzido.active
 
 # Escrever os dados traduzidos no arquivo Excel
 for row_idx, row_data in enumerate(dadosTraduzidos, start=1):
