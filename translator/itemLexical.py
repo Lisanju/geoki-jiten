@@ -2,12 +2,12 @@ import openpyxl
 import translators as ts
 import time
 
-wb = openpyxl.load_workbook("data/ptbr_okinawago_data.xlsx")
+wb = openpyxl.load_workbook("data/jp_okinawago_data.xlsx")
 ws = wb.active
 
 linhasProcessadas = 0
 
-for i in range(1, ws.max_row + 1):
+for i in range(1, ws.max_column+1):
     for j in range(1, ws.max_column + 1):
         celulaValor = ws.cell(i, j).value
         if celulaValor and isinstance(celulaValor, str):
@@ -22,8 +22,8 @@ for i in range(1, ws.max_row + 1):
                 print(f"Ocorreu um erro ao traduzir a célula ({i}, {j}): {e}")
             time.sleep(1)
     linhasProcessadas = linhasProcessadas + 1
-    if linhasProcessadas % 100 == 0:
-        wb.save("ptbr_okinawago_data.xlsx")
+    if linhasProcessadas % 100 == 0 or i == ws.max_row:
+        wb.save("data/ptbr_okinawago_data.xlsx")
         print("Arquivo salvo.")
 
 wb.save("ptbr_okinawago_data.xlsx")
