@@ -7,7 +7,7 @@ wsOK = wbOK.active
 
 # Path do workbook português brasileiro
 wbPB = openpyxl.load_workbook("data/ptbr_okinawago_data.xlsx")
-#Worksheet português brasileiro ativo
+# Worksheet português brasileiro ativo
 wsPB = wbPB.active
 
 # Função para pesquisar palavra no worksheet, retornando sua célula e informações lexicais
