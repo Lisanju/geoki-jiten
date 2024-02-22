@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const palavraUsuario = inputUsuario.value.trim().toLowerCase();
 
       // Abre o arquivo JSON
-      fetch('/data/ok_data.json')
+      fetch('https://lisanju.github.io/geoki-jiten/data/ok_data.json')
          .then(response => response.json())
          .then(data => {
             // Procura pela palavra nas chaves Verbete X
