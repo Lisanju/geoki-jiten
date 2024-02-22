@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
       fetch('../data/ok_data.json')
          .then(response => response.json())
          .then(data => {
-            // Procura pela palavra nas chaves "Verbete"
+            // Procura pela palavra nas chaves Verbete X
             const resultados = data.filter(item => {
                for (let i = 1; i <= 5; i++) {
                   if (item[`Verbete${i}`] && item[`Verbete${i}`].toLowerCase().includes(palavraUsuario)) {
-                     // Verifica se a palavra exata está presente na string do Verbete X
+                     // Verifica se a palavra exata está presente na string do Verbete
                      const verbetePalavra = item[`Verbete${i}`].toLowerCase().split(' ');
                      if (verbetePalavra.includes(palavraUsuario)) {
                         return true;
@@ -39,7 +39,15 @@ document.addEventListener('DOMContentLoaded', function () {
             const resultadosAnteriores = document.querySelectorAll('.resultado');
             resultadosAnteriores.forEach(resultado => resultado.remove());
 
-            // Cria uma nova div para cada resultado encontrado
+            // Checa se a palavra digitada consta na base de dados
+            if (resultados.length === 0) {
+               const divNenhumResultado = document.createElement('div');
+               divNenhumResultado.textContent = 'Nenhum resultado encontrado, tente procurar por outra palavra.';
+               divNenhumResultado.classList.add('resultado');
+               document.body.appendChild(divNenhumResultado);
+            };
+            
+            // Cria uma nova <div> para cada resultado encontrado
             resultados.forEach(resultado => {
                const divResultado = document.createElement('div');
                divResultado.classList.add('resultado');
@@ -53,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   }
                }
 
-               // Adiciona as informações de palavra, classe gramatical e entonação
+               // Adiciona a palavra, classe gramatical e entonação
                divResultado.innerHTML = `
                         <p><strong>${resultado.Palavra}</strong> (${resultado.Classe}) - ${resultado.Entonação}</p>
                         ${verbetesHTML}
