@@ -48,6 +48,23 @@ body {
     margin-right: auto;
 }
 
+.footer {
+    text-align: center;
+    font-family:var(--bs-font-sans-serif);
+    background-color: #ededed;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top:15px;
+}
+
+.link {
+  color:#ea5045;
+  text-decoration:none;
+}
+
 /* Media Queries */
 @media (max-width: 992px) {
     .logo img {
