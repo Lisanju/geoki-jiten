@@ -1,0 +1,137 @@
+body {
+    background-image: url("../imgs/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 25%;
+    width: 25%;
+}
+
+.search input {
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #929EA9;
+}
+
+.form-inputs {
+    position: relative;
+    box-shadow: 0 0 12px 0 #B8B8B8;
+}
+
+.form-inputs img {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 12px);
+    height: 24px;
+    width: 24px;
+}
+
+.resultado {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .logo img {
+        height: 35%;
+        width: 35%;
+    }
+
+    .col-md-8 {
+        width: 90%;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-top: 80px;
+    }
+
+    .search input {
+        height: 55px;
+    }
+
+    .form-inputs img {
+        right: 18px;
+        top: calc(50% - 10px);
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .logo {
+        margin-top: 70px;
+    }
+
+    .col-md-8 {
+        width: 100%;
+    }
+
+    .search input {
+        height: 50px;
+    }
+
+    .p-2 {
+        padding: 0 !important;
+    }
+
+    .form-inputs img {
+        right: 16px;
+        top: calc(50% - 9px);
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        margin-top: 60px;
+    }
+
+    .logo img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .search input {
+        font-size: 15px;
+    }
+
+    .form-inputs img {
+        right: 16px;
+        top: calc(50% - 9px);
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .form-inputs img {
+        top: 55px;
+    }
+}
