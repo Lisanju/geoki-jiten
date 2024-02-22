@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
    const botaoBuscar = document.querySelector('a[href="#"]');
    const inputUsuario = document.querySelector('.form-inputs input');
 
-   // Event listener para clicar no botão
+   // Evento para clicar no botão
    botaoBuscar.addEventListener('click', buscarPalavra);
 
-   // Event listener para pressionar a tecla "Enter" no input
+   // Evento para apertar "Enter"
    inputUsuario.addEventListener('keypress', function (event) {
       if (event.key === 'Enter') {
          event.preventDefault();
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // Pega a palavra digitada pelo usuário
       const palavraUsuario = inputUsuario.value.trim().toLowerCase();
 
-      // Carrega o arquivo JSON
+      // Abre o arquivo JSON
       fetch('../data/ok_data.json')
          .then(response => response.json())
          .then(data => {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const resultados = data.filter(item => {
                for (let i = 1; i <= 5; i++) {
                   if (item[`Verbete${i}`] && item[`Verbete${i}`].toLowerCase().includes(palavraUsuario)) {
-                     // Verifica se a palavra exata está presente na string do Verbete
+                     // Verifica se a palavra exata está presente na string do Verbete X
                      const verbetePalavra = item[`Verbete${i}`].toLowerCase().split(' ');
                      if (verbetePalavra.includes(palavraUsuario)) {
                         return true;
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
                divResultado.classList.add('resultado');
                let verbetesHTML = '';
 
-               // Itera sobre os verbetes de 1 a 5
+               // Itera sobre os Verbetes de 1 a 5
                for (let i = 1; i <= 5; i++) {
                   // Verifica se o Verbete atual existe e adiciona ao HTML
                   if (resultado[`Verbete${i}`]) {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   }
                }
 
-               // Adiciona as informações da palavra, classe e entonação
+               // Adiciona as informações de palavra, classe gramatical e entonação
                divResultado.innerHTML = `
                         <p><strong>${resultado.Palavra}</strong> (${resultado.Classe}) - ${resultado.Entonação}</p>
                         ${verbetesHTML}
