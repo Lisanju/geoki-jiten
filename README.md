@@ -1,5 +1,5 @@
 # GEOki Jiten
-Dicionário bilíngue com entradas do português brasileiro para o okinawano implementado em um sistema de busca com informações de entonação, glosa e classe gramatical.
+Dicionário bilíngue com entradas do português brasileiro para o okinawano implementado em um sistema de busca com informações de entonação, verbete e classe gramatical.
 
 Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawanos</a> da Universidade de São Paulo (GEOki-USP), desenvolvido pela linguista <a href="https://lisanju.github.io">Elisa Anju Lardapide</a>.
 
@@ -14,10 +14,86 @@ Os dados do database são divididos em:
 - Palavra em okinawano;
 - Entonação;
 - Classe gramatical;
-- Glosa (variando entre 1 a 5 glosas para cada palavra);
+- Verbete (variando entre 1 a 5 verbetes para cada palavra);
 - Observação sobre a palavra.
 
 Não foram feitas alterações sobre a grafia do léxico, mantendo a transcrição fonológica realizada pelos autores.
+
+## Metodologia para o desenvolvimento do GEOki Jiten
+
+O desenvolvimento do dicionário foi dividido em três etapas:
+
+- Tratamento do database;
+- Tradução e revisão;
+- Implementação do site.
+
+### Etapa 1 - Tratamento do database
+
+O database utilizado foi o "(本文篇) 沖縄首里方言辞典 - 沖縄語辞典 (2001)", disponível gratuitamente no repositório de databases do NINJAL em formato Excel (extensão .xlsx).
+
+O arquivo é dividido em 14450 linhas e 12 colunas. Com exceção da primeira linha (que contém os nomes das colunas), cada linha corresponde a uma entrada lexical e cada coluna corresponde a: 1. Página no livro do dicionário; 2. Entrada lexical; 3. Entonação; 4. Classe gramatical; 5. Tipo de linguagem (literária etc.); 6. Suplemento; 7. Verbete I; 8. Verbete II; 9. Verbete III; 10. Verbete IV; 11. Verbete V; 12. Observação.
+
+Para o tratamento do database, primeiro foi criada uma cópia do arquivo original .xlsx, chamada "ok_data.xlsx". Em seguida, foram retiradas da cópia as colunas "1", "5" e "6" - ou seja, apenas foram mantidas as informações de entrada lexical, entonação, classe gramatical, verbete e observação.
+
+Após a exclusão das colunas, iniciei o processo de conversão de extensão do arquivo "ok_data.xlsx" para "ok_data.json". Para isso, programei um algoritmo em Python, através das bibliotecas jsons e openpyxl, que permitiu a manipulação automatizada do arquivo Excel e a conversão de .xlsx para .json.
+
+Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como cada coluna em Excel se tornou uma chave em JSON. O valor de cada célula das colunas em Excel se tornaram dados em JSON, como no exemplo a seguir:
+
+**EXCEL**
+<table>
+  <tr>
+    <th>Palavra</th>
+    <th>Entonação</th>
+    <th>Classe</th>
+    <th>Verbete 1</th>
+    <th>Verbete 2</th>
+    <th>Verbete 3</th>
+    <th>Verbete 4</th>
+    <th>Verbete 5</th>
+    <th>Observação</th>
+  </tr>
+  <tr>
+    <td>?aa</td>
+    <td>Átona</td>
+    <td>Interjeição</td>
+    <td>Ah. O som feito ao experimentar algo profundamente</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+**JSON**
+```
+    {
+        "Palavra": "?aa",
+        "Entonação": "Átona",
+        "Classe": "Interjeição",
+        "Verbete1": "Ah. O som feito ao experimentar algo profundamente.",
+        "Verbete2": null,
+        "Verbete3": null,
+        "Verbete4": null,
+        "Verbete5": null,
+        "Observações": null
+    }
+```
+
+Após a conversão do arquivo inteiro para "ok_data.json", passei para a próxima etapa.
+
+### Etapa 2 - Tradução e revisão
+
+Originalmente, as informações sobre o okinawano no database estavam em japonês. Porém, para os fins do projeto, seria necessário ter essas informações disponíveis em português brasileiro. O arquivo, no entanto, conta com mais de 10000 sentenças em japonês para serem traduzidas - o que seria um grande trabalho para este projeto independente, ainda mais quando se considera que não tenho fundos para contratar mais tradutores.
+
+Por isso, optei por desenvolver um algoritmo em Python que, através da biblioteca translators, traduziu automaticamente todos os dados do japonês para o português. O motor de tradução automática utilizado foi o Baidu. As traduções, no entanto, contam com diversos problemas:
+
+- Misturam variedades do português brasileiro com o português europeu;
+- Apresentam erros derivados de um raciocínio estatístico que desconsidera regras gramaticais e de transformação em linguagem natural;
+- Dependeram de pouco ou nenhum conhecimento epistêmico, resultando em traduções literais e/ou descontextualizadas;
+- Ineficiência em processar caracteres especiais.
+
+Por esses motivos, é mais do que essencial uma etapa manual de revisão e quality-check da tradução. 
 
 ## Classes Gramaticais
 
@@ -390,7 +466,7 @@ Para auxiliar no uso do dicionário GEOki Jiten, há a seguir uma apresentação
 
 --
 
-**Em okinawano só há contraste fonológico em nível prosódico para dois tipos de entonação:**
+Em okinawano só há contraste fonológico em nível prosódico para dois tipos de entonação:
 
 <table>
   <tr>
