@@ -1,7 +1,7 @@
 # GEOki Jiten
 Dicionário bilíngue com entradas do português brasileiro para o okinawano implementado em um sistema de busca com informações de entonação, glosa e classe gramatical.
 
-Projeto associado ao <a href="https://www.geoki.site" target="_blank" rel="nopener noreferrer">Grupo de Estudos Okinawanos</a> da Universidade de São Paulo (GEOki-USP), desenvolvido por <a href="https://lisanju.github.io" target="_blank" rel="noopener noreferrer">Elisa Anju Lardapide</a>.
+Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawanos</a> da Universidade de São Paulo (GEOki-USP), desenvolvido pela linguista <a href="https://lisanju.github.io">Elisa Anju Lardapide</a>.
 
 ## Sobre o database
 
