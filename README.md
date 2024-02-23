@@ -31,4 +31,34 @@ Não foram feitas alterações sobre a grafia do léxico, mantendo a transcriç�
 - O som de "o" é pronunciado como no japonês-padrão ou um pouco mais longo;
 - Salvo exceções, "e" e "o" são sempre pronunciadas como vogais longas;
 - Os sons "e" e "o" são pronunciadas como vogais curtas quando aparecem antes de "N" e "Q", ou seja, "eN", "eQ", "oN" e "oQ";
-- 
+- A semivogal "j" aparece antes das vogais "a", "u" e "o" e antes das consoantes "h", "？", " ’ ", "p", "b", "m" e "n";
+- A semivogal "w" aparece antes das vogais "i" e "e" e antes das consoantes "h", "？", " ’ ", "k" e "g".
+
+--
+
+<table>
+  <tr>
+    <th>Consoantes</th>
+    <td>h</td>
+    <td>？</td>
+    <td>’</td>
+    <td>k</td>
+    <td>g</td>
+  </tr>
+  <tr>
+    <th></th>
+    <td>p</td>
+    <td>b</td>
+    <td>m</td>
+    <td>s</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <th></th>
+    <td>z</td>
+    <td>n</td>
+    <td>r</td>
+    <td>t</td>
+    <td>d</td>
+  </tr>
+</table>
