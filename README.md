@@ -3,19 +3,18 @@ Dicionário bilíngue com entradas do português brasileiro para o okinawano imp
 
 Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawanos</a> da Universidade de São Paulo (GEOki-USP), desenvolvido pela linguista <a href="https://lisanju.github.io">Elisa Anju Lardapide</a>.
 
+# Índice
+
+1. [Sobre o database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#sobre-o-database);
+2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten).
+3. [Classes gramaticais](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#classes-gramaticais).
+4. [Pronúncia e entonação](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#pronúncia-e-entonação).
+
 ## Sobre o database
 
 O database utilizado pelo GEOki Jiten é de autoria do National Institute for Japanese Language and Linguistics (NINJAL) - 国立国語研究所資料集5 - 沖縄語辞典 (2001), disponibilizado publicamente através da licença Creative Commons 4.0, sendo possível acessá-lo no endereço: <https://mmsrv.ninjal.ac.jp/okinawago/>.
 
 O database conta com 14549 entradas da variedade shuri da língua okinawana, que é uma importante variedade linguística representante do arquipélago ryukyuano, falada originalmente na antiga capital de Okinawa - atual cidade de Naha.
-
-Os dados do database são divididos em:
-
-- Palavra em okinawano;
-- Entonação;
-- Classe gramatical;
-- Verbete (variando entre 1 a 5 verbetes para cada palavra);
-- Observação sobre a palavra.
 
 Não foram feitas alterações sobre a grafia do léxico, mantendo a transcrição fonológica realizada pelos autores.
 
@@ -110,7 +109,7 @@ Com a estruturação e programação do site finalizadas, hospedei o site atrav�
 
 Essa foi a metodologia utilizada para o desenvolvimento do GEOki Jiten. Note que o projeto ainda está em desenvolvimento. Aceito qualquer sugestão que puderem oferecer, mas peço que, por favor, enviem as sugestões pelo e-mail "lisanju.contato@gmail.com", escrevendo no título do e-mail "GEOki Jiten Sugestão". Evite utilizar os chats do Instagram, WhatsApp, Discord, Twitter ou qualquer outro serviço que não seja pelo e-mail. Trata-se de uma questão de conveniência e organização.
 
-## Classes Gramaticais
+## Classes gramaticais
 
 As nomenclaturas utilizadas para se referir às classes, funções e expressões gramaticais das palavras do database são:
 
@@ -149,7 +148,7 @@ As nomenclaturas utilizadas para se referir às classes, funções e expressões
   </tr>
 </table>
 
-## Pronúncia e Entonação
+## Pronúncia e entonação
 
 Para auxiliar no uso do dicionário GEOki Jiten, há a seguir uma apresentação dos sons que compõem o inventário fonológico do okinawano, bem como suas grafias.
 
