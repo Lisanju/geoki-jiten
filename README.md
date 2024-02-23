@@ -3,7 +3,7 @@ Dicionário bilíngue com entradas do português brasileiro para o okinawano imp
 
 Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawanos</a> da Universidade de São Paulo (GEOki-USP), desenvolvido pela linguista <a href="https://lisanju.github.io">Elisa Anju Lardapide</a>.
 
-# Índice
+## Índice
 
 1. [Sobre o database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#sobre-o-database);
 2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten);
