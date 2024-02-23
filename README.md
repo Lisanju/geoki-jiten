@@ -108,7 +108,7 @@ O site é composto por uma única página (index.html) de estrutura simples, que
 
 Com a estruturação e programação do site finalizadas, hospedei o site através da plataforma GitHub Pages, que oferece um serviço de hosting gratuito e consideravelmente seguro quando em comparação com outros serviços. Ainda há alterações necessárias para serem feitas no site, como: modificar a exibição do rodapé, incluir uma seção de ajuda com informações linguísticas do okinawano, ajustar a interface do site no modo celular, estilizar as caixas de cada resultado de pesquisa.
 
-Essa foi a metodologia utilizada para o desenvolvimento do GEOki Jiten. Note que o projeto ainda está em desenvolvimento. Aceito qualquer sugestão que puderem oferecer, mas peço que, por favor, enviem as sugestões pelo e-mail "lisanju.contato@gmail.com". Evite utilizar os chats do Instagram, WhatsApp, Discord, Twitter ou qualquer outro serviço que não seja pelo e-mail. Trata-se de uma questão de conveniência e organização.
+Essa foi a metodologia utilizada para o desenvolvimento do GEOki Jiten. Note que o projeto ainda está em desenvolvimento. Aceito qualquer sugestão que puderem oferecer, mas peço que, por favor, enviem as sugestões pelo e-mail "lisanju.contato@gmail.com", escrevendo no título do e-mail "GEOki Jiten Sugestão". Evite utilizar os chats do Instagram, WhatsApp, Discord, Twitter ou qualquer outro serviço que não seja pelo e-mail. Trata-se de uma questão de conveniência e organização.
 
 ## Classes Gramaticais
 
