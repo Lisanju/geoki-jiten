@@ -336,3 +336,18 @@ Não foram feitas alterações sobre a grafia do léxico, mantendo a transcriç�
     <td></td>
   </tr>
 </table>
+
+--
+
+Em okinawano só há contraste fonológico em nível prosódico para dois tipos de entonação:
+
+<table>
+  <tr>
+    <th>Entonação</th>
+    <td>Palavra átona</td>
+    <td>Palavra de tom decrescente</td>
+  </tr>
+</table>
+
+- Palavras átonas começam com a primeira sílaba em tom médio ou baixo, mas terminam com um tom crescente nas últimas sílabas (?ami ↑ - chuva);
+- Palavras com tom decrescente começam com a primeira sílaba em tom alto, mas terminam com um tom decrescente a partir da segunda sílaba - caso a palavra tenha apenas duas sílabas, a primeira é pronunciada em tom alto e a segunda em tom baixo (nacigwii ↓ - choro).
