@@ -7,9 +7,58 @@ O database utilizado pelo GEOki Jiten é de autoria do National Institute for Ja
 
 O database conta com 14549 entradas da variedade shuri da língua okinawana, que é uma importante variedade linguística representante do arquipélago ryukyuano, falada originalmente na antiga capital de Okinawa - atual cidade de Naha.
 
+Os dados do database são divididos em:
+
+- Palavra em okinawano;
+- Entonação;
+- Classe gramatical;
+- Glosa (variando entre 1 a 5 glosas para cada palavra);
+- Observação sobre a palavra.
+
 Não foram feitas alterações sobre a grafia do léxico, mantendo a transcrição fonológica realizada pelos autores.
 
+## Classes Gramaticais
+
+As nomenclaturas utilizadas para se referir às classes, funções e expressões gramaticais das palavras do database são:
+
+<table>
+  <tr>
+    <td>Substantivo</td>
+    <td>Advérbio</td>
+    <td>Afixo</td>
+    <td>Prefixo</td>
+    <td>Partícula auxiliar</td>
+    <td>Sufixo</td>
+  </tr>
+  <tr>
+    <td>Adjunto adnominal</td>
+    <td>Verbo transitivo</td>
+    <td>Partícula gramatical</td>
+    <td>Verbo</td>
+    <td>Função de partícula</td>
+    <td>Expressão</td>
+  </tr>
+    <tr>
+      <td>Onomatopeia</td>
+      <td>Adjetivo</td>
+      <td>Verbo intransitivo</td>
+      <td>Conjunção</td>
+      <td>Irregular</td>
+      <td>Formulaico</td>
+  </tr>
+    <tr>
+      <td>Grupo de (CLASSE)</td>
+      <td>Negação de (CLASSE)</td>
+      <td>Função igual a (CLASSE)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+  </tr>
+</table>
+
 ## Pronúncia e Entonação
+
+Para auxiliar no uso do dicionário GEOki Jiten, há a seguir uma apresentação dos sons que compõem o inventário fonológico do okinawano, bem como suas grafias.
 
 <table>
   <tr>
@@ -21,7 +70,7 @@ Não foram feitas alterações sobre a grafia do léxico, mantendo a transcriç�
     <td>u</td>
   </tr>
   <tr>
-    <th>Semivogal</th>
+    <th>Semivogais</th>
     <td>j</td>
     <td>w</td>
   </tr>
@@ -339,7 +388,7 @@ Não foram feitas alterações sobre a grafia do léxico, mantendo a transcriç�
 
 --
 
-Em okinawano só há contraste fonológico em nível prosódico para dois tipos de entonação:
+**Em okinawano só há contraste fonológico em nível prosódico para dois tipos de entonação:**
 
 <table>
   <tr>
