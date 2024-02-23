@@ -6,8 +6,8 @@ Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawano
 # Índice
 
 1. [Sobre o database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#sobre-o-database);
-2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten).
-3. [Classes gramaticais](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#classes-gramaticais).
+2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten);
+3. [Classes gramaticais](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#classes-gramaticais);
 4. [Pronúncia e entonação](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#pronúncia-e-entonação).
 
 ## Sobre o database
