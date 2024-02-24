@@ -98,7 +98,7 @@ Por esses motivos, é mais do que essencial uma etapa manual de revisão e quali
 
 Após o tratamento do database e da sua tradução, iniciei a etapa de implementação do site. A ideia é que o GEOki Jiten possa ser facilmente acessado em qualquer dispositivo que esteja conectado na Internet. Por isso, um website me pareceu ser a melhor escolha de implementação. Trata-se de um site simples, em que as tecnologias utilizadas foram: HTML, CSS, JavaScript, JSON, Bootstrap e GitHub Pages.
 
-O site é composto por uma única página (index.html) de estrutura simples, que contém blocos para o logo do site, para a barra de pesquisa e para o rodapé. O arquivo do site, além da página "index.html", é subdividido em outras 4 páginas: data, styles, scripts e imgs:
+O site é composto por uma única página (index.html) de estrutura simples, que contém blocos para o logo do site, para a barra de pesquisa e para o rodapé. O arquivo do site, além da página "index.html", é subdividido em outras 4 pastas: data, styles, scripts e imgs:
 
 - A pasta data contém o database "ok_data.json" traduzido com os dados da língua okinawana;
 - A pasta styles contém as folhas de estilo "style.css" e "bootstrap.min.css", em que "style.css" modifica diretamente o design da página "index.html" e "bootstrap.min.css" retorna um modelo de licença Bootstrap;
