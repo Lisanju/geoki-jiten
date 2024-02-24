@@ -6,9 +6,12 @@ Projeto associado ao <a href="https://www.geoki.site">Grupo de Estudos Okinawano
 ## Índice
 
 1. [Sobre o database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#sobre-o-database);
-2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten);
-3. [Classes gramaticais](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#classes-gramaticais);
-4. [Pronúncia e entonação](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#pronúncia-e-entonação).
+2. [Metodologia para o desenvolvimento do GEOki Jiten](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#metodologia-para-o-desenvolvimento-do-geoki-jiten);<br>
+   2.1 [Tratamento do database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#etapa-1---tratamento-do-database);<br>
+   2.2 [Tratamento do database](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#etapa-2---tradução-e-revisão);
+   2.3 [Implementação do site](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#etapa-3---implementação-do-site);
+4. [Classes gramaticais](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#classes-gramaticais);
+5. [Pronúncia e entonação](https://github.com/Lisanju/geoki-jiten/tree/main?tab=readme-ov-file#pronúncia-e-entonação).
 
 ## Sobre o database
 
