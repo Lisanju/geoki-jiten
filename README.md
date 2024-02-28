@@ -57,7 +57,7 @@ Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como 
   <tr>
     <td>?aa</td>
     <td>Átona</td>
-    <td>Interjeição</td>
+    <td>Onomatopeia</td>
     <td>Ah. O som feito ao experimentar algo profundamente</td>
     <td></td>
     <td></td>
@@ -72,7 +72,7 @@ Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como 
     {
         "Palavra": "?aa",
         "Entonação": "Átona",
-        "Classe": "Interjeição",
+        "Classe": "Onomatopeia",
         "Verbete1": "Ah. O som feito ao experimentar algo profundamente.",
         "Verbete2": null,
         "Verbete3": null,
