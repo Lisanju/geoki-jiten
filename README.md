@@ -52,7 +52,7 @@ Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como 
     <th>Verbete 3</th>
     <th>Verbete 4</th>
     <th>Verbete 5</th>
-    <th>Observação</th>
+    <th>Observações</th>
   </tr>
   <tr>
     <td>?aa</td>
