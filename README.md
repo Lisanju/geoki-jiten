@@ -57,7 +57,7 @@ Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como 
   <tr>
     <td>?aa</td>
     <td>Átona</td>
-    <td>Onomatopeia</td>
+    <td>Interjeição</td>
     <td>Ah. O som feito ao experimentar algo profundamente</td>
     <td></td>
     <td></td>
@@ -72,7 +72,7 @@ Cada linha da planilha Excel se tornou um conjunto de dados em JSON, assim como 
     {
         "Palavra": "?aa",
         "Entonação": "Átona",
-        "Classe": "Onomatopeia",
+        "Classe": "Interjeição",
         "Verbete1": "Ah. O som feito ao experimentar algo profundamente.",
         "Verbete2": null,
         "Verbete3": null,
@@ -134,7 +134,7 @@ As nomenclaturas utilizadas para se referir às classes, funções e expressões
     <td>Expressão</td>
   </tr>
     <tr>
-      <td>Onomatopeia</td>
+      <td>Interjeição</td>
       <td>Adjetivo</td>
       <td>Verbo intransitivo</td>
       <td>Conjunção</td>
