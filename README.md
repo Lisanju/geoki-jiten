@@ -207,7 +207,7 @@ Para auxiliar no uso do dicionário GEOki Jiten, há a seguir uma apresentação
   </tr>
 </table>
 
-- As consoantes com grafia "ş", "ç" e "ᶎ" eram utilizadas por samurais;
+- As consoantes com grafia "ş", "ç" e "ᶎ" são equivalentes com "s", "c" e "z", mas denotam estilos utilizados por classes privilegiadas;
 - O som "?" é contrastante, ou seja, sua presença antes de uma vogal altera o significado da palavra (?utu - som / ’utu - marido);
 - As sílabas " ’i" e " ’u" podem ser escritas como "ji" e "wu" respectivamente;
 - A consoante "?" pode aparecer antes de "N" (?Nmi - ameixa).
